@@ -25,7 +25,11 @@ void setupPins(void){
   pinMode(A5, INPUT);
   digitalWrite(A5, HIGH);
 }
-
+/**
+ * Retrieves the controller data for the controller.
+ *
+ * @return The controller data containing the state of the buttons
+ * */
 dataForController_t getControllerData(void){
   
   // Set up a place for our controller data
